@@ -13,6 +13,7 @@
 		EBE66B0529C9B7120050BAAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE66B0429C9B7120050BAAC /* Preview Assets.xcassets */; };
 		EBE66B0C29C9B7680050BAAC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE66B0B29C9B7680050BAAC /* Model.swift */; };
 		EBE66B0E29C9B9530050BAAC /* NetworkInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE66B0D29C9B9530050BAAC /* NetworkInterface.swift */; };
+		EBE66B1029C9D6340050BAAC /* MoviesVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE66B0F29C9D6340050BAAC /* MoviesVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		EBE66B0429C9B7120050BAAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EBE66B0B29C9B7680050BAAC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		EBE66B0D29C9B9530050BAAC /* NetworkInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInterface.swift; sourceTree = "<group>"; };
+		EBE66B0F29C9D6340050BAAC /* MoviesVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				EBE66AFF29C9B7100050BAAC /* ContentView.swift */,
 				EBE66B0B29C9B7680050BAAC /* Model.swift */,
 				EBE66B0D29C9B9530050BAAC /* NetworkInterface.swift */,
+				EBE66B0F29C9D6340050BAAC /* MoviesVM.swift */,
 				EBE66B0129C9B7120050BAAC /* Assets.xcassets */,
 				EBE66B0329C9B7120050BAAC /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBE66B1029C9D6340050BAAC /* MoviesVM.swift in Sources */,
 				EBE66B0E29C9B9530050BAAC /* NetworkInterface.swift in Sources */,
 				EBE66B0C29C9B7680050BAAC /* Model.swift in Sources */,
 				EBE66B0029C9B7100050BAAC /* ContentView.swift in Sources */,
