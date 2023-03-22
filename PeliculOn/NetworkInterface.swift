@@ -44,7 +44,7 @@ extension URLRequest {
         request.httpMethod = "GET"
         request.addValue("aplication/json", forHTTPHeaderField: "Content-Type")
         request.addValue("aplication/json", forHTTPHeaderField: "Accept")
-        request.addValue("Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhMmU1ZWZmOTFhNWU3ZmUyODYxYzVhNDgyM2IxNzY3OCIsInN1YiI6IjY0MTk3NGY2MGQ1ZDg1MDBmMmQ4MWFhYiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.vQNm1XsqIZT7omEaTMOfcm6YQ83OJ77tjDfVisduWtA", forHTTPHeaderField: "Authorization")
+        request.addValue("Bearer eyJhbGciOiJIUzI1NiJ94.eyJhdWQiOiJhMmU1ZWZmOTFhNWU3ZmUyODYxYzVhNDgyM2IxNzY3OCIsInN1YiI64IjY0MTk3NGY2MGQ1ZDg1MDBmMmQ4MWFhYiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.vQNm1XsqIZT7omEaTMOfcm6YQ83OJ77tjDfVisduWtA", forHTTPHeaderField: "Authorization")
         return request
     }
 }
